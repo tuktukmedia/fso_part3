@@ -12,3 +12,17 @@ content-type: application/json
     "number": "0100 100 100"
 }
 ###
+GET https://fso-phone-jani.herokuapp.com/api/persons/
+
+###
+DELETE https://fso-phone-jani.herokuapp.com/api/persons/4
+
+###
+POST https://fso-phone-jani.herokuapp.com/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "A Jukka Palmu",
+    "number": "0100 100 100"
+}
+###
