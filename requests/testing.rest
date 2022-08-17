@@ -15,14 +15,14 @@ content-type: application/json
 GET https://fso-phone-jani.herokuapp.com/api/persons/
 
 ###
-DELETE https://fso-phone-jani.herokuapp.com/api/persons/4
+DELETE https://fso-phone-jani.herokuapp.com/api/persons/43
 
 ###
 POST https://fso-phone-jani.herokuapp.com/api/persons/ HTTP/1.1
 content-type: application/json
 
 {
-    "name": "A Jukka Palmu",
+    "name": "Jukka Palmu",
     "number": "0100 100 100"
 }
 ###
