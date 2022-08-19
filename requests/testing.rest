@@ -1,15 +1,23 @@
 GET http://localhost:3001/api/persons
 
 ###
-DELETE http://localhost:3001/api/persons/4
+DELETE http://localhost:3001/api/persons/62fe0e5f4495e98c24e8ca6e
 
 ###
 POST http://localhost:3001/api/persons HTTP/1.1
 content-type: application/json
 
 {
-    "name": "A Jukka Palmu",
+    "name": "Li",
     "number": "0100 100 100"
+}
+###
+PUT http://localhost:3001/api/persons/62fe0e5f4495e98c24e8ca6e HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Veikko Lavi",
+    "number": "121"
 }
 ###
 GET https://fso-phone-jani.herokuapp.com/api/persons/
