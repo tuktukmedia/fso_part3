@@ -1,1 +1,1 @@
-https://fso-phone-jani.herokuapp.com/api/persons/
+https://fso-phone-jani.herokuapp.com/
